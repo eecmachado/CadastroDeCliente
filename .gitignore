@@ -1,0 +1,17 @@
+/Api/.vs
+/Api/src/CadastroDeCliente.Api/bin/Debug/netcoreapp2.2
+/Api/src/CadastroDeCliente.Api/obj/Debug/netcoreapp2.2
+/Api/src/CadastroDeCliente.Api/obj
+/Api/src/CadastroDeCliente.Application/bin/Debug/netcoreapp2.2
+/Api/src/CadastroDeCliente.Application/obj/Debug/netcoreapp2.2
+/Api/src/CadastroDeCliente.Application/obj
+/Api/src/CadastroDeCliente.Domain/bin/Debug/netcoreapp2.2
+/Api/src/CadastroDeCliente.Domain/obj
+/Api/src/CadastroDeCliente.Infra.CrossCutting/bin/Debug/netcoreapp2.2
+/Api/src/CadastroDeCliente.Infra.CrossCutting/obj
+/Api/src/CadastroDeCliente.Infra.Data/bin/Debug/netcoreapp2.2
+/Api/src/CadastroDeCliente.Infra.Data/obj/Debug/netcoreapp2.2
+/Api/src/CadastroDeCliente.Infra.Data/obj
+/Api/src/CadastroDeCliente.Infra.Migrations/bin/Debug/netcoreapp2.2
+/Api/src/CadastroDeCliente.Infra.Migrations/obj/Debug/netcoreapp2.2
+/Api/src/CadastroDeCliente.Infra.Migrations/obj

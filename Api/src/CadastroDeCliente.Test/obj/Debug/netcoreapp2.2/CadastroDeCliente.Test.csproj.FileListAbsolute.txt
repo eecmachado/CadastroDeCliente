@@ -1,0 +1,4 @@
+C:\Users\emmanuel.machado\Documents\Emmanuel Machado\CadastroDeCliente\Api\src\CadastroDeCliente.Test\obj\Debug\netcoreapp2.2\CadastroDeCliente.Test.csprojAssemblyReference.cache
+C:\Users\emmanuel.machado\Documents\Emmanuel Machado\CadastroDeCliente\Api\src\CadastroDeCliente.Test\obj\Debug\netcoreapp2.2\CadastroDeCliente.Test.csproj.CoreCompileInputs.cache
+C:\Users\emmanuel.machado\Documents\Emmanuel Machado\CadastroDeCliente\Api\src\CadastroDeCliente.Test\obj\Debug\netcoreapp2.2\CadastroDeCliente.Test.AssemblyInfoInputs.cache
+C:\Users\emmanuel.machado\Documents\Emmanuel Machado\CadastroDeCliente\Api\src\CadastroDeCliente.Test\obj\Debug\netcoreapp2.2\CadastroDeCliente.Test.AssemblyInfo.cs

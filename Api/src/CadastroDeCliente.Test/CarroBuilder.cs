@@ -1,10 +1,10 @@
-﻿using CrudClean.Api.Response;
-using CrudClean.Application;
-using CrudClean.Application.Interfaces;
-using CrudClean.Application.UseCases.Carro.Base;
+﻿using CadastroDeCliente.Api.Response;
+using CadastroDeCliente.Application;
+using CadastroDeCliente.Application.Interfaces;
+using CadastroDeCliente.Application.UseCases.Carro.Base;
 using System.Threading.Tasks;
 
-namespace CrudClean.Test
+namespace CadastroDeCliente.Test
 {
     public class CarroBuilder : UseCaseResponseMessage
     {

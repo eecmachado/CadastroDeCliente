@@ -1,8 +1,8 @@
-﻿using CrudClean.Api.Controllers;
-using CrudClean.Api.Response;
-using CrudClean.Application.Interfaces;
-using CrudClean.Application.Interfaces.UseCases;
-using CrudClean.Application.UseCases.Carro.Base;
+﻿using CadastroDeCliente.Api.Controllers;
+using CadastroDeCliente.Api.Response;
+using CadastroDeCliente.Application.Interfaces;
+using CadastroDeCliente.Application.Interfaces.UseCases;
+using CadastroDeCliente.Application.UseCases.Cliente.Base;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Moq;
@@ -12,24 +12,24 @@ using System.Text;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace CrudClean.Test.Api
+namespace CadastroDeCliente.Test.Api
 {
     public sealed class CarroControllerTest
     {
-        private readonly Mock<ICarroUseCase> mockCarroUseCase;
+        private readonly Mock<IClienteUseCase> mockCarroUseCase;
         private readonly Mock<Presenter> mockPresenter;
-        private readonly Mock<IOutputPort<CarroResponse>> mockOutputPort;
-        private readonly CarroController carroController;
+        private readonly Mock<IOutputPort<ClienteResponse>> mockOutputPort;
+        private readonly ClienteController carroController;
         private readonly CarroBuilder carroBuilder;
 
         public CarroControllerTest()
         {
-            mockCarroUseCase = new Mock<ICarroUseCase>();
+            mockCarroUseCase = new Mock<IClienteUseCase>();
             mockPresenter = new Mock<Presenter>();
-            mockOutputPort = new Mock<IOutputPort<CarroResponse>>();
+            mockOutputPort = new Mock<IOutputPort<ClienteResponse>>();
             carroBuilder = new CarroBuilder();
 
-            carroController = new CarroController(
+            carroController = new ClienteController(
                     mockCarroUseCase.Object,
                     mockPresenter.Object);
         }
