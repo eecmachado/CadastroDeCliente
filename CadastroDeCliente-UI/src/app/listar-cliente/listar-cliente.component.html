@@ -1,0 +1,26 @@
+<div class="col-md-6 user-container">
+  <h2 style="margin: auto">Lista de Cliente</h2>
+  <button class="btn btn-danger" style="width:100px" (click)="adicionarCliente()">Adicionar</button>
+  <table class="table table-striped">
+    <thead>
+    <tr>
+      <th class="hidden">Id</th>
+      <th>Nome</th>
+      <th>Sobrenome</th>
+      <th>CPF</th>
+      <th>Email</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let cliente of clientes">
+      <td class="hidden">{{cliente.id}}</td>
+      <td>{{cliente.nome}}</td>
+      <td>{{cliente.sobrenome}}</td>
+      <td>{{cliente.cpf}}</td>
+      <td>{{cliente.email}}</td>
+      <td><button class="btn btn-success" (click)="deletarCliente(cliente)">Deletar</button>
+        <button class="btn btn-success" (click)="alterarCliente(cliente)" style="margin-left: 20px;">Alterar</button></td>
+    </tr>
+    </tbody>
+  </table>
+</div>
